@@ -402,6 +402,19 @@ li {
 }
 /* TEAM END */
 
+/* CLIENTS */
+
+.clients-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-list {
+  display: flex;
+}
+
+/* CLIENTS END */
+
 /* FOOTER */
 
 .footer-container {
