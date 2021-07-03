@@ -190,17 +190,28 @@ li {
 }
 
 .mail-link {
+  display: flex;
+  align-items: center;
+
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-info-color);
 
+  fill: var(--header-info-color);
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .tel-link {
+  display: flex;
+  align-items: center;
+
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-info-color);
+
+  fill: var(--header-info-color);
 
   padding-top: 32px;
   padding-bottom: 32px;
@@ -208,10 +219,16 @@ li {
 .mail-link:hover,
 .tel-link:hover {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .mail-link:focus,
 .tel-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.header-icon {
+  margin-right: 10px;
 }
 /* HEADER END */
 
