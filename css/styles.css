@@ -433,7 +433,7 @@ li {
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 16px;
   width: 206px;
@@ -445,6 +445,10 @@ li {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.social-point:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-link {
